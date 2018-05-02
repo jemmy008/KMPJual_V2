@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentAdmin.TambahProduk">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- Login progress -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+            <ImageButton
+                android:id="@+id/tambahProduk_gambar"
+                android:src="@drawable/produk"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"/>
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/tambahProduk_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:hint="Deskripsi Barang"
+            android:layout_marginTop="4dp"/>
+
+        <EditText
+            android:id="@+id/tambahProduk_harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:inputType="number"
+            android:hint="Harga Barang"
+            android:layout_marginTop="4dp"/>
+
+        <EditText
+            android:id="@+id/tambahProduk_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:hint="Nama Barang"
+            android:layout_marginTop="4dp"/>
+
+        <EditText
+            android:id="@+id/tambahProduk_stok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:inputType="number"
+            android:hint="Stok"
+            android:layout_marginTop="4dp"/>
+
+        <Button
+            android:id="@+id/tambahProduk_tambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tambah Produk"/>
+
+
+    </LinearLayout>
+</ScrollView>

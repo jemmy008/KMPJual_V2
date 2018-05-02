@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "64017544987",
+    "firebase_url": "https://kmpjual.firebaseio.com",
+    "project_id": "kmpjual",
+    "storage_bucket": "kmpjual.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64017544987:android:f0e4ee5bd30747fb",
+        "android_client_info": {
+          "package_name": "com.getective.kmpjual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64017544987-2qce2q0mcg3f0425dgrub2bs6jq96ssn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getective.kmpjual",
+            "certificate_hash": "a95e4b64406f6a27d64894f2ff45ae4638effedd"
+          }
+        },
+        {
+          "client_id": "64017544987-9da84bvg2pginfppr9v6uqtmf9i4nlu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcydf2HwDDeicP8uXTM2U1pa8aBSAEjsQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64017544987-9da84bvg2pginfppr9v6uqtmf9i4nlu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
